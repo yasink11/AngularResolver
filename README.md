@@ -1,27 +1,3 @@
-# AngularDemo
+# Angular Resolver
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+In Angular, a resolver is a mechanism that prepares the necessary data for a page while it is being loaded. When you're directed to a route, the resolver fetches predetermined data in advance, allowing you to quickly view the page without waiting for its complete loading. Resolvers are often used to perform asynchronous tasks like API calls, ensuring that the required data is readily available when the page loads, resulting in an enhanced user experience. Resolvers are defined in route configurations and execute data retrieval processes before accessing the route. As a result, the required data is instantly available when the page is loaded.
